@@ -1,6 +1,9 @@
 bs.realmofracket
 ================
 
+# geiser
+http://www.nongnu.org/geiser/
+
 # 환경설정.
 참고 : https://github.com/mrBliss/dotfiles/blob/master/.emacs.d/custom-lisp.el
 
@@ -8,6 +11,12 @@ bs.realmofracket
 (defun set-auto-complete-as-completion-at-point-function ()
   (setq completion-at-point-functions '(auto-complete)))
 ```
+
+# 단축키.
+- C-M-x : 평가식 실행
+- C-c C-r : 파일 로드
+- C-c C-d <Tab> : 심볼에 대한 메뉴얼 보기.
+
 
 # (.4 Where Does Racket Come From?
 * 1950s에 위대하신 John McCarthy님께서 Lisp 창시.
@@ -31,10 +40,7 @@ bs.realmofracket
 # 느낀점.
 - 대충 훝어봤는데 그림이 적어 살작 불안했으나, 읽다보니 적제적소에 깨알같이 자리잡고 있었다..
 
-# 단축키.
-- C-M-x : 평가식 실행
-- C-c C-r : 파일 로드
-- C-c C-d <Tab> : 심볼에 대한 메뉴얼 보기.
-
 # Links.
 - 책 사이트 : http://realmofracket.com
+- 소스 : https://github.com/plt/racket/tree/master/pkgs/realm
+- 소스는 DrRacket설치하면 로컬에서도 확인가능(ex) )`C:\Program Files\Racket\collects\realm`)
